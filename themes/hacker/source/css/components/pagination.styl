@@ -1,7 +1,3 @@
-$paginationRed = #f03838
-$paginationWhite = #fff
-
-
 .pagination
   position: relative;
   margin: 30px 0;
@@ -16,9 +12,9 @@ $paginationWhite = #fff
 
   .pagination-prev
   .pagination-next
-    color $paginationRed
+    color $highlight
     font-size 1.6rem
-    border: 1px solid #e0e0e0;
+    border: 1px solid $secondary;
     line-height: 30px;
     height: 32px;
     padding: 0 20px;
@@ -27,6 +23,6 @@ $paginationWhite = #fff
     transition-duration: 0.4s;
 
     &:hover
-      color: $paginationWhite;
-      background-color: $paginationRed;
-      border-color: $paginationRed;
+      color: $bodyBackground;
+      background-color: $highlight;
+      border-color: $highlight;
