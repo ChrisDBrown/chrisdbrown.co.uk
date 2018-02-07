@@ -3,8 +3,8 @@ menu:
   about: /about/
 
 # disqus comment
-disqus: false
-disqus_shortname:
+disqus: true
+disqus_shortname: chrisdbrown
 
 # google analytics
 googleTrackId:
