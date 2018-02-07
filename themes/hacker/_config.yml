@@ -1,6 +1,6 @@
 menu:
-  Home: /
-  Archives: /archives
+  archive: /archives/
+  about: /about/
 
 # disqus comment
 disqus: false

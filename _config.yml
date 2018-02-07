@@ -7,15 +7,13 @@ title: chris d brown
 subtitle: web developer
 description:
 author: Chris D Brown
-language:
-timezone:
+timezone: Europe/London
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://www.chrisdbrown.co.uk
 root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
+permalink: :year-:month-:day/:title/
 
 # Directory
 source_dir: source

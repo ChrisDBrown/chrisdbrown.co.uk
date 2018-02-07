@@ -14,6 +14,7 @@
     <% } %>
   <% } %>
 
+  <% if (pagetype == 'post'){ %>
   <div class="article-top-meta">
     <span class="posted-on">
       <a href="<%- config.root %><%- item.path %>" rel="bookmark">
@@ -23,6 +24,7 @@
       </a>
     </span>
   </div>
+  <% } %>
 
 
   <% if (item.photos && item.photos.length){ %>

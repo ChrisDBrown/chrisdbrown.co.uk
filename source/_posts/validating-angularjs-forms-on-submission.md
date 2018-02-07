@@ -1,20 +1,22 @@
 ---
-layout: post
-title:  "Validating AngularJS forms on submission"
-date:   2015-10-14 20:22:00
-categories: angularjs javascript
-metadescription: "I've recently been working on a mobile app built with AppGyver and AngularJs that's fairly form-heavy, and wanted to implement some more user-friendly validation than Angular's default."
-comments: true
+title: "Validating AngularJS forms on submission"
+date: 2015-10-14 20:22:00
+categories:
+    - angularjs
+    - javascript
+description: "I've recently been working on a mobile app built with AppGyver and AngularJs that's fairly form-heavy, and wanted to implement some more user-friendly validation than Angular's default."
 ---
 
 I've recently been working on a mobile app built with [AppGyver][appgyver] and [AngularJs][angularjs] that's fairly form-heavy, and wanted to implement some more user-friendly validation than Angular's default. I've never been a fan of showing error messages as soon as the user types a character - it's far too close to shouting at them, and I'd rather be guiding my users after a mistake than assuming they're about to make one.
 
+<!-- more -->
+
 To this end I wanted to show validation messages only when the user attempts to submit the form the first time, and guide them more after a mistake was made. Unfortunately Angular doesn't support this natively, so here's how it's done.
 
-###Set up your form
+### Set up your form
 
 First, I'll set up a simple login form:
-{% codeblock html %}
+{% codeblock lang:html %}
 <div ng-controller="IndexController as ctrl">
 
     <form name="loginForm">
@@ -37,11 +39,11 @@ First, I'll set up a simple login form:
 
 Here I'm using the standard AngularJS validation - errors will show as soon as the page loads, and vanish once the inputs are valid. Normally the `ng-show` rules on the error messages would be something like `loginForm.email.$error.required && loginForm.email.$dirty` so that the errors don't appear until the user interacts with the field. This is what causes that 'immediate error' issue I was talking about. Nasty.
 
-###Handle form submission
+### Handle form submission
 
 Let's start fixing this. I'll add a submission handler to the form:
 
-{% codeblock html %}
+{% codeblock lang:  html %}
 ...
     <form name="loginForm" ng-submit="ctrl.submit(loginForm)">
         ...
@@ -51,7 +53,7 @@ Let's start fixing this. I'll add a submission handler to the form:
 
 ...and implement a controller to match:
 
-{% codeblock javascript %}
+{% codeblock lang:javascript %}
 angular
     .module('demo', [])
         .controller('IndexController', [function() {
@@ -69,7 +71,7 @@ This `console.log` call will be replaced by whatever data handling is needed aft
 
 At this point it's almost there, just one final step. In order to only show errors after an attempted submission we need a way of tracking this, so add a variable for this:
 
-{% codeblock javascript %}
+{% codeblock lang:javascript %}
 ...
     self.submitted = false;
     self.submit = function(form) {
@@ -84,7 +86,7 @@ At this point it's almost there, just one final step. In order to only show erro
 ...and the last part of the puzzle is extending the `ng-show` logic on the errors:
 
 
-{% codeblock html %}
+{% codeblock lang:html %}
 ...
     <p ng-show="ctrl.submitted && loginForm.email.$error.required">Please enter your email</p>
 ...

@@ -1,21 +1,16 @@
 ---
-layout: post
-title:  "Kana Time for Chrome"
-date:   2017-03-18 17:12:00
+title: "Kana Time for Chrome"
+date: 2017-03-18 17:12:00
 categories: japanese
-metadescription: ""
-ogimage: "/img/kanatime.png"
-comments: true
+description: "Kana Time gives you a quick quiz on every new Chrome tab to get you practicing throughout your usual day."
+cover: "/img/kanatime.png"
 ---
 
 In September 2016 I started attending night classes to learn Japanese, and as it turns out, that's quite difficult. One of the biggest challenges is coming to grips with the two different Japanese alphabets, Hiragana & Katakana (& the seemingly-endless number of Kanji, but that's a post for another time). To try and understand them faster I started to look for ways to use them as regularly as possible, removing the pressure of putting aside study time and making it more routine. Unfortunately nothing I found quite fit my routine, so instead I started building my own, and now I've released it for general use.
 
-<div class="img_row">
-  <a href="/img/kanatime.png"><img class="col three" src="/img/kanatime.png" title="Kana Time Quiz"></a>
-</div>
-<div class="col three caption">
-  Kana Time replaces Chrome's new tab with this simple quiz
-</div>
+<!-- more -->
+
+{% imageCaption /img/kanatime.png "Kana Time Quiz" "Kana Time replaces Chrome's new tab with this simple quiz" %}
 
 Kana Time gives you a quick quiz on every new Chrome tab to get you practicing throughout your usual day. The more you get a particular character right, the less you'll see it, helping you focus on the areas you struggle in - a full history of your answers will show you where this is if you want to practice elsewhere. Just looking to learn one alphabet? You can choose either Hiragana, Katakana, or both. By default it'll stop you skipping away from the page before answering, but you can turn that off if it's annoying (or you're more disciplined than me).
 

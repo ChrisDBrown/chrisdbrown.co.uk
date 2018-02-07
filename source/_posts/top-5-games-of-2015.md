@@ -1,11 +1,9 @@
 ---
-layout: post
-title:  "Top 5 Games of 2015"
-date:   2016-01-22 12:25:00
+title: "Top 5 Games of 2015"
+date: 2016-01-22 12:25:00
 categories: videogames
-metadescription: "2015 has been a good year for videogames - here's a look at my favourites"
-ogimage: "/img/goty2015-tomb-raider.jpg"
-comments: true
+description: "2015 has been a good year for videogames - here's a look at my favourites"
+cover: "/img/goty2015-tomb-raider.jpg"
 ---
 
 Well, somehow it's 2016 already. Who knows how that happened. 2015 has been a hell of a year for videogames on both the indie and triple-A ends of the spectrum. Even the clockwork machines put out good versions of The Thing They Make this year, by most accounts.
@@ -13,9 +11,11 @@ What's better still is that this year has seen the hard line that used to exist 
 
 Anyway, here's some hot opinions.
 
+<!-- more -->
+
 <br />
 
-###5. Rise of the Tomb Raider
+### 5. Rise of the Tomb Raider
 _Self-Improvement award for Best Sequel_
 
 The main theme of 2015 was surprises. I was not a fan of Tomb Raider (2013, not 1996 (this needs to stop)), as much as I enjoyed the way it played. The torture-porn nature of the action and the obvious glee taken at damaging Lara wasn't for me.
@@ -26,26 +26,16 @@ My main issue with is that the supporting characters are all quite one-note, eve
 
 Overall though this is a masterclass at how to make a sequel, although maybe by the next game she'll have learned to steal people's guns rather than just rifling through their pockets.
 
-<div class="img_row">
-  <a href="/img/goty2015-tomb-raider.jpg"><img class="col three" src="/img/goty2015-tomb-raider.jpg" title="Rise of the Tomb Raider"></a>
-</div>
-<div class="col three caption">
-  It also looks chuffing beautiful
-</div>
+{% imageCaption /img/goty2015-tomb-raider.jpg "Rise of the Tomb Raider" "It also looks chuffing beautiful" %}
 
-<br /><br />
+<br />
 
-###4. Hacknet
+### 4. Hacknet
 _Acid Burn award for Fastest Typing_
 
 Mr Robot was probably my favourite TV series of 2015. It's refreshingly accurate portrayal of hacking laced with subtle use of an unreliable narrator and set against the modern financial backdrop really struck a chord with me. Hacknet is the other side of the coin - Swordfish-ass hollywood hacking.
 
-<div class="img_row">
-  <a href="/img/goty2015-hacknet.jpg"><img class="col three" src="/img/goty2015-hacknet.jpg" title="Hacknet"></a>
-</div>
-<div class="col three caption">
-  Time to punch deck
-</div>
+{% imageCaption /img/goty2015-hacknet.jpg "Hacknet" "Time to punch deck" %}
 
 If you've ever played Introversion Software's classic hack-the-gibson sim Uplink then you'll know exactly what to expect here. The entire game is experienced through a linux desktop with a simple graphic interface and terminal. You can - and I would recommend you do - play the vast majority of the game just through terminal commands. Though very limited, each command in their accepted toolset works exactly like it's real life counterpart.
 
@@ -55,19 +45,14 @@ Where Hacknet really pushes itself above being just a good one of these - which,
 
 It's a perfectly paced skill-builder, meshing story and gameplay together into a climactic final-boss like moment that has you typing furiously against the clock as the excellent techno-beat soundtrack ramps up beautifully. There's a few low points - some of the optional hacks can be repetitive - but overall it's a very tight password-stealing package.
 
-<br /><br />
+<br />
 
-###3. Cibele
+### 3. Cibele
 _Ragnarok Online award for Best Fake MMO_
 
 I picked up Cibele on a whim knowing nothing about it other than that it kept being mentioned on my Twitter feed, and ended up playing it in a single sitting late at night and destroying all hope of getting work done the next day. Still, I'm not sure quite what it was that made me unable to put it down. My first impression of Cibele was one of discomfort - the game opens with you sitting at a PC clicking through chat logs and photos and all the other incredibly personal information we store on machines, and I didn't have enough of a picture of the character to not feel like I was prying.
 
-<div class="img_row">
-  <a href="/img/goty2015-cibele.jpg"><img class="col three" src="/img/goty2015-cibele.jpg" title="Cibele"></a>
-</div>
-<div class="col three caption">
-  Definitely not my computer
-</div>
+{% imageCaption /img/goty2015-cibele.jpg "Cibele" "Definitely not my computer" %}
 
 This, however, is the most interesting thing about Cibele. It's an auto-biographical game by Nina Freeman about a failed online relationship through an online game. There's three main components: the computer-clicky-ready parts showing Nina's life outside the game, the fake MMO "Valtameri" sections with love interest Blake, and FMV sequences starring Nina as herself and her real-life partner Emmett Butler as Blake. Over several chapters the story of Blake and Nina's awkward, burgeoning first love is played out with a striking honesty that is rarely seen over any medium, and seeing it in a video game is hugely exciting.
 
@@ -75,20 +60,14 @@ The setting was instantly relateable to me. During high school I spent far too m
 
 Cibele is - for now - a rare work in games of an author telling their story frankly and openly, and the fact that games like this can exist now makes me hopeful for what's to come.
 
-<br /><br />
+<br />
 
-
-###2. Keep Talking and Nobody Explodes
+### 2. Keep Talking and Nobody Explodes
 _GCHQ award for Most Likely to Get Me Arrested_
 
 Here's a brief look at a conversation I had with my Dad last night:
 
-<br />
-
-<a href="/img/goty2015-keep-talking.png"><img class="col" src="/img/goty2015-keep-talking.png" title="Keep Talking and Nobody Explodes"></a>
-<div class="col three caption">
-  Thanks, Dad
-</div>
+{% imageCaption /img/goty2015-keep-talking.png "Keep Talking and Nobody Explodes" "Thanks, Dad" %}
 
 Now, I knew what he meant, but just to clarify for all the shady government agencies reading my messages - this was about a videogame. Which is amazing in itself. Even during the height of Wii-mania father dearest stayed out of it, but one look at Keep Talking while I was home for the holidays had him hooked.
 
@@ -100,27 +79,20 @@ The real magic for me is how easy it is to get all kinds of people involved - no
 
 Not sure I'd trust them with a real bomb though.
 
+<br />
 
-<br /><br />
-
-###1. Undertale
+### 1. Undertale
 _Tumblr award for Most Rabid Fanbase_
 
 And here was my biggest surprise of the year - I didn't hate Undertale. All the buzz I heard around it was "The characters are sooo random! One only talks in comic sans!" and "You don't need to kill anyone!" which all sounded like some happy-clappy crap to me. Boy, was I wrong. This side of the game is a massive misdirection - hiding under the jokes and kitsch is a surprisingly deep, heartfelt and bleak world.
 
-<a href="/img/goty2015-undertale.png"><img class="col" src="/img/goty2015-undertale.png" title="Undertale"></a>
-<div class="col three caption">
-  The jokes are pretty good too
-</div>
+{% imageCaption /img/goty2015-undertale.png "Undertale" "The jokes are pretty good too" %}
 
 Messing with the players expectations is a running theme through the game. Despite being an almost solo effort by Toby Fox it seems to predict every action taken, no matter how odd, and have a clever response ready, whether it be a throwaway gag or suddenly changing tracks for the plot and mood of the rest of this playthrough. Another oddity, this - it's an RPG designed to be played through multiple times to see as much as possible, and in fact requires a few runs to get the "best" endings. Thankfully it clocks in at about 5 hours even on your first blind run so it's not too arduous a task.
 
 Over the course of multiple runs Undertale starts opening out it's deeper narrative of weaving what would normally just be handwaved as game mechanics into the plot - specifically your saving, loading, and restarting the game. Characters begin to remember what you've done on previous playthroughs, both good and bad, and react accordingly, just as your own knowledge of the game starts to inform decisions made at critical points, in turn affecting the final outcome this time round. This interconnection is what makes the game so affecting - even resurrecting a character you've previously murdered doesn't absolve you of your actions. For me, this made me unable to play through what's known as a genocide run, which involves killing off every character and every enemy until random encounters are left without opponents. I'd came to like the many quirky characters, and sure, I could reset, but they'd know. And I'd know. I couldn't bring myself to do it.
 
-<a href="/img/goty2015-undertale-2.png"><img class="col" src="/img/goty2015-undertale-2.png" title="Undertale"></a>
-<div class="col three caption">
-  No-one's left to kill, you monster
-</div>
+{% imageCaption /img/goty2015-undertale-2.png "Undertale" "No-one's left to kill, you monster" %}
 
 Genocide runs are an extreme example of the ways in which the world shapes itself around your actions. You are every bit a driving force in Undertale, with the power to save or ruin everything you touch on both a personal or a global level, and manages to conjoin these in a way that few larger-scale RPG manage. Every interaction feels meaningful, and what few side quests exist drastically affect the main story while being completely missable and optional. Everything feels like one complete package, with one unfortunate exception. The first hour or so of the game was built as a demo for crowdfunding backers years before the main game came out, and lacks the polish and finesse of the rest of the game. It's unfortunate, as I imagine a lot of people are put off by and never get past it. While it serves as a good introduction to the mechanics of the game it does drag on too long without much variation.
 
