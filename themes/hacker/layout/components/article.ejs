@@ -99,6 +99,6 @@
     <% } %>
   </div>
 </article>
-<% if (!index && item.comments && (theme.duoshuo || theme.disqus)){ %>
+<% if (!index && item.comments && pagetype == 'post' && (theme.duoshuo || theme.disqus)){ %>
   <%- partial('comment') %>
 <% } %>
