@@ -45,6 +45,8 @@
     <div class="entry">
       <% if (item.excerpt && index){ %>
         <%- item.excerpt %>
+
+        <a href="<%- config.root %><%- item.path %>"><span>Read more</span></a>
       <% } else { %>
         <%- item.content %>
       <% } %>

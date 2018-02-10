@@ -1,7 +1,7 @@
 ---
 title: "Scrabblemojier for Slack"
 date: 2017-03-18 15:48:00
-categories: slack
+tags: slack
 description: "Spam your Slack channels with scrabble tile talk"
 cover: "/img/scrabblemojier.png"
 ---

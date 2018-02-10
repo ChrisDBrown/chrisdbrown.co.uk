@@ -1,7 +1,7 @@
 ---
 title: "Validating AngularJS forms on submission"
 date: 2015-10-14 20:22:00
-categories:
+tags:
     - angularjs
     - javascript
 description: "I've recently been working on a mobile app built with AppGyver and AngularJs that's fairly form-heavy, and wanted to implement some more user-friendly validation than Angular's default."

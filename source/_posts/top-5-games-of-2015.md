@@ -1,7 +1,7 @@
 ---
 title: "Top 5 Games of 2015"
 date: 2016-01-22 12:25:00
-categories: videogames
+tags: videogames
 description: "2015 has been a good year for videogames - here's a look at my favourites"
 cover: "/img/goty2015-tomb-raider.jpg"
 ---

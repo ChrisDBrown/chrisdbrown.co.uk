@@ -1,7 +1,7 @@
 ---
 title: "Kana Time for Chrome"
 date: 2017-03-18 17:12:00
-categories: japanese
+tags: japanese
 description: "Kana Time gives you a quick quiz on every new Chrome tab to get you practicing throughout your usual day."
 cover: "/img/kanatime.png"
 ---
