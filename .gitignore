@@ -7,3 +7,4 @@ public/
 .deploy*/
 _config_secure.yml
 _multiconfig.yml
+scripts/purgeOnDeploy.js
