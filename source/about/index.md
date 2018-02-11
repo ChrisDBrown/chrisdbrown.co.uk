@@ -1,6 +1,5 @@
 ---
 title: about
-
 ---
 
 ![](/img/profile.jpg)
