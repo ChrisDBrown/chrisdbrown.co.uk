@@ -76,3 +76,17 @@ theme: Hacker
 ## Docs: https://github.com/ludoviclefevre/hexo-generator-seo-friendly-sitemap
 sitemap:
     path: sitemap.xml
+
+# Asset Pipeline
+## Docs: https://github.com/hexojs/hexo-asset-pipeline
+asset_pipeline:
+  revisioning:
+    enable: true
+  clean_css:
+    enable: true
+  uglify_js:
+    enable: true
+  imagemin:
+    enable: true
+  html_minifier:
+    enable: true
