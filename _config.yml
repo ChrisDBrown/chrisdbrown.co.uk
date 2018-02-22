@@ -82,7 +82,7 @@ sitemap:
 asset_pipeline:
   revisioning:
     enable: true
-    exclude: ['robots.txt', '*.xml', '*.xsl']
+    exclude: ['*.txt', '*.xml', '*.xsl']
   clean_css:
     enable: true
   uglify_js:
