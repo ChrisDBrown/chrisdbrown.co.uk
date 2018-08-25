@@ -4,7 +4,7 @@ hexo.extend.tag.register('imageCaption', function(args){
   var caption = args[2];
   return `
   <figure>
-    <a href="${image}">
+    <a href="${image}" data-img="true">
       <img src="${image}" alt="${alt}" />
     </a>
     <figcaption>${caption}</figcaption>
