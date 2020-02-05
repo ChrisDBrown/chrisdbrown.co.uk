@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-universal",
-  "license": "MIT",
-  "author": "Fabian Schultz <desk@fabianschultz.com>",
+  "name": "chrisdbrown.co.uk",
+  "author": "Chris D Brown <owner@chrisdbrown.co.uk>",
+  "description": "Based on fabe/gatsby-universal",
   "scripts": {
     "develop": "gatsby develop",
     "serve": "gatsby serve",
