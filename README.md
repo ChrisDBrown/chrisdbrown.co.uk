@@ -1,5 +1,7 @@
 # chrisdbrown.co.uk
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ChrisDBrown/chrisdbrown.co.uk.svg)](https://greenkeeper.io/)
+
 ## Cheat sheet
 `node_modules/.bin/hexo` === `hexo` if it's not installed globally
 
