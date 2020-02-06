@@ -1,6 +1,5 @@
-version: 2
 jobs:
-  build:
+  test:
     docker:
       - image: circleci/node:latest-browsers
     working_directory: ~/repo
@@ -21,5 +20,19 @@ jobs:
             - node_modules
           key: v1-deps-{{ checksum "package-lock.json" }}
 
-      # Run tests
+      # TODO: Change this test to run against netlify deploys on each branch
+      # Current runs against the live site
       - run: npm run test
+
+workflows:
+  version: 2
+  nightly:
+    triggers:
+      - schedule:
+          cron: "0 0 * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - test
