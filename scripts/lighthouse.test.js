@@ -1,5 +1,5 @@
 const chromeLauncher = require('chrome-launcher');
-const { test } = require('ava');
+const test = require('ava');
 const lighthouse = require('lighthouse');
 const { siteUrl } = require('../site-config');
 
