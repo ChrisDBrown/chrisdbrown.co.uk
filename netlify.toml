@@ -10,3 +10,8 @@
     best-practices = 0.9
     seo = 0.9
     pwa = 0.9
+
+[[redirects]]
+  from = "/php-2023"
+  to = "https://docs.google.com/presentation/d/1iQiA4POpOdirGfnbXEen_ng646EQmIYN6pk3e4_ynH0/edit?usp=sharing"
+  status = 301
