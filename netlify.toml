@@ -1,17 +1,15 @@
 [build]
   command = "npm run build"
-  publish = "public/"
-
-[[plugins]]
-  package = "@netlify/plugin-lighthouse"
-  [plugins.inputs.thresholds]
-    performance = 0.9
-    accessibility = 0.9
-    best-practices = 0.9
-    seo = 0.9
-    pwa = 0.9
+  publish = "dist"
+  environment = { NODE_VERSION = "20" }
 
 [[redirects]]
-  from = "/php-2023"
-  to = "https://docs.google.com/presentation/d/1iQiA4POpOdirGfnbXEen_ng646EQmIYN6pk3e4_ynH0/edit?usp=sharing"
-  status = 301
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Opting your Website out of Google's FLoC Network
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Permissions-Policy = "interest-cohort=()"
