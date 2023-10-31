@@ -12,10 +12,10 @@ const links = [
 </script>
 
 <template>
-  <nav class="flex items-center">
-    <ul class="flex gap-2 text-sm">
+  <nav class="flex items-end">
+    <ul class="flex gap-2">
       <li v-for="(link, index) in links" :key="index">
-        <a :href="link.url" class="link uppercase">{{ link.title }}</a>
+        <a :href="link.url" class="link lowercase">{{ link.title }}</a>
       </li>
     </ul>
   </nav>
