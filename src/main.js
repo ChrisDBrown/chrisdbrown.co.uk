@@ -11,5 +11,13 @@ const router = createRouter({
   routes,
 });
 
+router.beforeEach((to) => {
+  let title = "chris d brown";
+  if (to.meta.title) {
+    title = `${to.meta.title} | chris d brown`;
+  }
+  document.title = title;
+});
+
 app.use(router);
 app.mount("#app");
