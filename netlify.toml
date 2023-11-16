@@ -4,6 +4,11 @@
   environment = { NODE_VERSION = "20" }
 
 [[redirects]]
+  from = "/php-2023"
+  to = "https://docs.google.com/presentation/d/1iQiA4POpOdirGfnbXEen_ng646EQmIYN6pk3e4_ynH0/edit?usp=sharing"
+  status = 301
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
