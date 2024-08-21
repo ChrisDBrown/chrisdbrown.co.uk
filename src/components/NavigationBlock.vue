@@ -8,6 +8,10 @@ const links = [
     title: "GitHub",
     url: "https://github.com/chrisdbrown",
   },
+  {
+    title: "itch.io",
+    url: "https://chrisdbrown.itch.io",
+  },
 ];
 </script>
 
