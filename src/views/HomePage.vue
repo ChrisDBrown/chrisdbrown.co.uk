@@ -37,5 +37,22 @@
         around
       </li>
     </ul>
+    <h2>games</h2>
+    <ul>
+      <li>
+        <a
+          href="https://chrisdbrown.itch.io/self-service-afterlife"
+          class="link"
+          >self-service afterlife</a
+        >
+        for GMTK game jam 2024
+      </li>
+      <li>
+        <a href="https://chrisdbrown.itch.io/icarus-vs-the-sun" class="link"
+          >icarus vs the sun</a
+        >
+        for GMTK game jam 2023
+      </li>
+    </ul>
   </main>
 </template>
