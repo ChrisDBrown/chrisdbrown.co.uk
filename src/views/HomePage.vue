@@ -1,8 +1,12 @@
+<script setup lang="ts">
+import StyledLink from "../components/StyledLink.vue";
+</script>
+
 <template>
   <main class="prose">
     <h2>engineering lead based in glasgow, scotland</h2>
     <p>
-      With 10 years industry experience under my belt, I’ve worked across all
+      With 11 years industry experience under my belt, I’ve worked across all
       areas of web development; creating cohesive, multi-discipline projects
       both as part of a team and as a solo developer. Working in companies where
       I can make a tangible impact through my work, I’ve been involved in the
@@ -19,37 +23,43 @@
     <p>
       I'm always looking for new opportunities. If you think I'd fit in with
       your team, or are looking for a freelancer, please
-      <a href="mailto:owner@chrisdbrown.co.uk" class="link">drop me an email</a>
+      <StyledLink href="mailto:owner@chrisdbrown.co.uk"
+        >drop me an email</StyledLink
+      >
       or
-      <a href="https://www.linkedin.com/in/chrisdeebrown" class="link"
-        >find me on LinkedIn</a
+      <StyledLink href="https://www.linkedin.com/in/chrisdeebrown"
+        >find me on LinkedIn</StyledLink
       >.
     </p>
     <h2>talks</h2>
     <ul>
       <li>
-        <a href="https://htmx-talk.chrisdbrown.co.uk/" class="link"
-          >fixing html with htmx</a
+        <StyledLink href="https://htmx-talk.chrisdbrown.co.uk/"
+          >fixing html with htmx</StyledLink
         >: the philosophy of hypermedia
       </li>
       <li>
-        <a href="/php-2023" class="link">PHP in 2023</a>: the okay-est language
-        around
+        <StyledLink href="/php-2023">PHP in 2023</StyledLink>: the okay-est
+        language around
       </li>
     </ul>
     <h2>games</h2>
     <ul>
       <li>
-        <a
-          href="https://chrisdbrown.itch.io/self-service-afterlife"
-          class="link"
-          >self-service afterlife</a
+        <StyledLink href="https://chrisdbrown.itch.io/sterlings-run"
+          >sterling's run</StyledLink
+        >
+        for brackeys game jam 2025.1
+      </li>
+      <li>
+        <StyledLink href="https://chrisdbrown.itch.io/self-service-afterlife"
+          >self-service afterlife</StyledLink
         >
         for GMTK game jam 2024
       </li>
       <li>
-        <a href="https://chrisdbrown.itch.io/icarus-vs-the-sun" class="link"
-          >icarus vs the sun</a
+        <StyledLink href="https://chrisdbrown.itch.io/icarus-vs-the-sun"
+          >icarus vs the sun</StyledLink
         >
         for GMTK game jam 2023
       </li>
