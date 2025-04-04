@@ -1,4 +1,6 @@
 <script setup>
+import StyledLink from "./StyledLink.vue";
+
 const links = [
   {
     title: "LinkedIn",
@@ -19,7 +21,9 @@ const links = [
   <nav class="flex items-end">
     <ul class="flex gap-2">
       <li v-for="(link, index) in links" :key="index">
-        <a :href="link.url" class="link lowercase">{{ link.title }}</a>
+        <StyledLink :href="link.url" class="lowercase">{{
+          link.title
+        }}</StyledLink>
       </li>
     </ul>
   </nav>
