@@ -1,6 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 .link {
   @apply text-indigo-700 hover:text-gray-900 transition-colors duration-500
