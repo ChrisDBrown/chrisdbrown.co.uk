@@ -5,7 +5,7 @@ import NavigationBlock from "./NavigationBlock.vue";
 <template>
   <header class="flex justify-between">
     <a href="/">
-      <h1 class="text-3xl link">chris d brown</h1>
+      <h1 class="link text-3xl">chris d brown</h1>
     </a>
     <NavigationBlock />
   </header>
