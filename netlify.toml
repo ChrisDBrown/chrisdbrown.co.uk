@@ -9,6 +9,16 @@
   status = 301
 
 [[redirects]]
+  from = "htmx-fixes-html"
+  to = "https://docs.google.com/presentation/d/1s2VARds0z0ukoP4NSZZe6WP7cWc_z20Ybgcbq8xvABg/edit?usp=sharing"
+  status = 301
+
+[[redirects]]
+  from = "/game-jamming"
+  to = "https://docs.google.com/presentation/d/1fEtnSuuW_TaMaG-tpRzAKS-uvvaOqIlr9NKkf-W5NfM/edit?usp=sharing"
+  status = 301
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
