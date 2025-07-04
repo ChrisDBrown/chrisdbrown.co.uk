@@ -34,9 +34,15 @@ import StyledLink from "../components/StyledLink.vue";
     <h2>talks</h2>
     <ul>
       <li>
-        <StyledLink href="https://htmx-talk.chrisdbrown.co.uk/"
-          >fixing html with htmx</StyledLink
-        >: the philosophy of hypermedia
+        <StyledLink href="/game-jamming">you should make a game</StyledLink>:
+        how game jams can improve your day job (<StyledLink
+          href="https://www.youtube.com/watch?v=afTGNHbjb4A"
+          >video</StyledLink
+        >)
+      </li>
+      <li>
+        <StyledLink href="/htmx-fixes-html">fixing html with htmx</StyledLink>:
+        the philosophy of hypermedia
       </li>
       <li>
         <StyledLink href="/php-2023">PHP in 2023</StyledLink>: the okay-est
