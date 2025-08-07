@@ -52,6 +52,12 @@ import StyledLink from "../components/StyledLink.vue";
     <h2>games</h2>
     <ul>
       <li>
+        <StyledLink href="https://chrisdbrown.itch.io/chores"
+          >chores</StyledLink
+        >
+        for GMTK game jam 2025
+      </li>
+      <li>
         <StyledLink href="https://chrisdbrown.itch.io/sterlings-run"
           >sterling's run</StyledLink
         >
@@ -64,10 +70,28 @@ import StyledLink from "../components/StyledLink.vue";
         for GMTK game jam 2024
       </li>
       <li>
-        <StyledLink href="https://chrisdbrown.itch.io/icarus-vs-the-sun"
-          >icarus vs the sun</StyledLink
+        <StyledLink href="https://chrisdbrown.itch.io/"
+          >and all the rest</StyledLink
         >
-        for GMTK game jam 2023
+      </li>
+    </ul>
+    <h2>other bits</h2>
+    <ul>
+      <li>
+        <StyledLink href="https://github.com/ChrisDBrown/vue-tailwind-template"
+          >vue + tailwind</StyledLink
+        >
+        &amp;
+        <StyledLink href="https://github.com/ChrisDBrown/vue-tailwind-template"
+          >symfony</StyledLink
+        >
+        opinionated templates
+      </li>
+      <li>
+        <StyledLink href="https://github.com/ChrisDBrown/bskymarks"
+          >bskymarks</StyledLink
+        >
+        bookmarking tool for bluesky
       </li>
     </ul>
   </main>
