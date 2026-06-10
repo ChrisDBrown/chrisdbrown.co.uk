@@ -19,6 +19,11 @@
   status = 301
 
 [[redirects]]
+  from = "/being-stupid"
+  to = "https://docs.google.com/presentation/d/1pqV6YBck7aDsHZuS-iCxjl1MhkIqrZEpTnnGNkZLTFw/edit?usp=sharing"
+  status = 301
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
