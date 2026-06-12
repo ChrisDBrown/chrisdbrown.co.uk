@@ -6,7 +6,7 @@ import StyledLink from "../components/StyledLink.vue";
   <main class="prose">
     <h2>engineering lead based in glasgow, scotland</h2>
     <p>
-      With 11 years industry experience under my belt, I’ve worked across all
+      With 12 years industry experience under my belt, I’ve worked across all
       areas of web development; creating cohesive, multi-discipline projects
       both as part of a team and as a solo developer. Working in companies where
       I can make a tangible impact through my work, I’ve been involved in the
@@ -33,6 +33,10 @@ import StyledLink from "../components/StyledLink.vue";
     </p>
     <h2>talks</h2>
     <ul>
+      <li>
+        <StyledLink href="/being-stupid">the joy of being stupid</StyledLink>:
+        when being clever is too clever
+      </li>
       <li>
         <StyledLink href="/game-jamming">you should make a game</StyledLink>:
         how game jams can improve your day job (<StyledLink
